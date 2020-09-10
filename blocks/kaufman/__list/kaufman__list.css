@@ -2,7 +2,7 @@
     list-style-type: none;
 
     display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(5, 200px);
-
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* без медиа-выражений!  */
 }
