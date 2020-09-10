@@ -1,8 +1,26 @@
 .kaufman__list {
     list-style-type: none;
+    padding: 0 48px;
 
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    /* без медиа-выражений!  */
+    /* без медиа-выражений! */
+}
+
+@media screen and (max-width: 768px) {
+    .kaufman__list {
+        padding: 0 24px;
+
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .kaufman__list {
+        padding: 0 16px;
+
+        gap: 16px;
+    }
 }
