@@ -1,3 +1,8 @@
 .kaufman__list {
-    display: none;
+    list-style-type: none;
+
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(5, 200px);
+
 }
